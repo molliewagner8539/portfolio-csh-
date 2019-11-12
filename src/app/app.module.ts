@@ -11,6 +11,7 @@ import { CshbotComponent } from './cshbot/cshbot.component';
 
 import { CalcService } from '../calc.service';
 import { CshbotService } from '../cshbot.service';
+import { SeattleseattleComponent } from './seattleseattle/seattleseattle.component';
 
 
 @NgModule({
@@ -18,8 +19,9 @@ import { CshbotService } from '../cshbot.service';
     { path: '', component: HomeComponent },
     { path: 'about', component: AboutComponent },
     { path: 'cshbot', component: CshbotComponent }
+     
   ]) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent, SeattleseattleComponent ],
   providers: [CalcService, CshbotService],
   bootstrap:    [ AppComponent ]
 })
